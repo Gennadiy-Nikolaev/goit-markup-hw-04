@@ -272,6 +272,27 @@ adress {
 .feature .item {
     margin-right: 30px;    
 }
+.feature .item::before{
+    display: block;
+    content: "";   
+    height: 120px;    
+    border-radius: 4px;      
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--primary-button-color);
+}
+.item.icon-antenna::before {
+    background-image: url(../images/feature/antenna.png);
+    }
+.item.icon-clock::before {
+    background-image: url(../images/feature/clock.png);
+    }
+.item.icon-diagram::before {
+    background-image: url(../images/feature/diagram.png);
+    }
+.item.icon-astronaut::before {
+    background-image: url(../images/feature/astronaut.png);
+}
 .feature .item:last-child {
     margin-right: 0px;
 }
