@@ -171,6 +171,7 @@ adress {
     color: var(--accent-color);
 }
 .auth-nav-li .item::before {
+    display: flex;
     outline: 1px solid red;
     width: 30px;
     content: "";
@@ -487,22 +488,22 @@ adress {
     background-position: center;
 }
 .item.icon-union1 {
-    background-image: url(../images/client/Union1.png);
+    background-image: url(../images/client/Union1.svg);
 }
 .item.icon-union2 {
-    background-image: url(../images/client/Union2.png);
+    background-image: url(../images/client/Union2.svg);
 }
 .item.icon-object3 {
-    background-image: url(../images/client/Object3.png);
+    background-image: url(../images/client/Object3.svg);
 }
 .item.icon-group4 {
-    background-image: url(../images/client/group4.png);
+    background-image: url(../images/client/group4.svg);
 }
 .item.icon-group5 {
-    background-image: url(../images/client/group5.png);
+    background-image: url(../images/client/group5.svg);
 }
 .item.icon-group6 {
-    background-image: url(../images/client/group6.png);
+    background-image: url(../images/client/group6.svg);
 }
 
 
