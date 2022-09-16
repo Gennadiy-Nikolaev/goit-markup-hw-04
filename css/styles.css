@@ -170,13 +170,22 @@ adress {
 .auth-nav .link:focus {
     color: var(--accent-color);
 }
+.auth-nav-li .item ::before {
+    
+    width: 30px;
+    content: "";
+    background-image: url(../images/heder/envelope.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20px;
+    margin-right: 10px;
+}
 /*Hero*/
 .hero {
     height: 600px;
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 94px;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -258,6 +267,10 @@ adress {
     color: var(--primary-background-color);
     background-color: var(--accent-color);
 }
+.general {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /*Specifics*/
 .specifics {
@@ -303,6 +316,7 @@ adress {
     color: var(--primary-text-color);
     font-weight: 700;
     line-height: 1.14;
+    font-size: 14px;
     text-transform: uppercase;
 }
 .feature .post {
@@ -342,14 +356,12 @@ adress {
 .team {
     margin-top: 0;
     margin-bottom: 0;
-
     background-color: var(--background-color);
 }
 
 .team-card {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 94px;
+    justify-content: space-between;    
 }
 
 .team-card .item {
@@ -361,8 +373,7 @@ adress {
 .team-title {
     margin-top: 0;
     margin-bottom: 50px;
-    padding-top: 94px;
-
+    
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -444,6 +455,55 @@ adress {
     font-size: 16px;
     line-height: 1.88;   
 }
+
+/*Client*/
+.client {
+    padding-top: 94px;
+}
+.client-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.client-card {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.client-card .item {
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item.icon-union1 {
+    background-image: url(../images/client/Union1.png);
+}
+.item.icon-union2 {
+    background-image: url(../images/client/Union2.png);
+}
+.item.icon-object3 {
+    background-image: url(../images/client/Object3.png);
+}
+.item.icon-group4 {
+    background-image: url(../images/client/group4.png);
+}
+.item.icon-group5 {
+    background-image: url(../images/client/group5.png);
+}
+.item.icon-group6 {
+    background-image: url(../images/client/group6.png);
+}
+
 
 /*Footer*/
 .footer {    
