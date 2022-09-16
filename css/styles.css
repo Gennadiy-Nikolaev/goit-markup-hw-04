@@ -170,8 +170,8 @@ adress {
 .auth-nav .link:focus {
     color: var(--accent-color);
 }
-.auth-nav-li .item ::before {
-    
+.auth-nav-li .item::before {
+    outline: 1px solid red;
     width: 30px;
     content: "";
     background-image: url(../images/heder/envelope.svg);
@@ -293,18 +293,19 @@ adress {
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--primary-button-color);
+    margin-bottom: 30px;
 }
 .item.icon-antenna::before {
-    background-image: url(../images/feature/antenna.png);
+    background-image: url(../images/feature/antenna.svg);
     }
 .item.icon-clock::before {
-    background-image: url(../images/feature/clock.png);
+    background-image: url(../images/feature/clock.svg);
     }
 .item.icon-diagram::before {
-    background-image: url(../images/feature/diagram.png);
+    background-image: url(../images/feature/diagram.svg);
     }
 .item.icon-astronaut::before {
-    background-image: url(../images/feature/astronaut.png);
+    background-image: url(../images/feature/astronaut.svg);
 }
 .feature .item:last-child {
     margin-right: 0px;
