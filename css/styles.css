@@ -151,12 +151,13 @@ adress {
 
 /*Mail+tel*/
 /*Auth-nav*/
-.auth-nav {    
-    margin-left: auto;
-}
-.auth-nav-li {
+
+.auth-nav {
     display: flex;
-}
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: auto
+    }
 .auth-nav .item+.item {
     margin-left: 50px;
 }
@@ -170,17 +171,19 @@ adress {
 .auth-nav .link:focus {
     color: var(--accent-color);
 }
-.auth-nav-li .item::before {
-    display: flex;
-    outline: 1px solid red;
-    width: 30px;
+.icon-mail::before
+{   display: inline-flex;      
     content: "";
-    background-image: url(../images/heder/envelope.svg);
-    background-position: center;
-    background-repeat: no-repeat;
+    outline: 1px solid red;
+    width: 20px;
     height: 20px;
     margin-right: 10px;
+    background-image: url(../images/heder/envelope.svg);
+    background-position: right bottom;
+    background-repeat: no-repeat;    
 }
+
+
 /*Hero*/
 .hero {
     height: 600px;
@@ -341,7 +344,6 @@ adress {
 }
 .section-title {    
     margin-bottom: 50px;
-
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -465,7 +467,6 @@ adress {
 .client-title {
     margin-top: 0;
     margin-bottom: 50px;
-
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -487,9 +488,12 @@ adress {
     background-repeat: no-repeat;
     background-position: center;
 }
+.client-card.item:hover {
+    color: #188CE8;
+}
 .item.icon-union1 {
     background-image: url(../images/client/Union1.svg);
-}
+    }
 .item.icon-union2 {
     background-image: url(../images/client/Union2.svg);
 }
@@ -505,8 +509,8 @@ adress {
 .item.icon-group6 {
     background-image: url(../images/client/group6.svg);
 }
-
-
+/*<svg><use href="./путь-к-свг-спрайту/имя-спрайта.svg#идентификатор-символа"></use></svg>
+*/
 /*Footer*/
 .footer {    
     padding-top: 60px;
