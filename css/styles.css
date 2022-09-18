@@ -478,7 +478,7 @@ adress {
     display: flex;
     justify-content: space-between;
     }
-.client-card .item {
+.client-card .logo {
     display: flex;
     width: 170px;
     height: 92px;   
@@ -487,11 +487,17 @@ adress {
     align-items: center;
     justify-content: center;
    }
-.client-card .item:hover {color: #188CE8;}
+.client-card .logo:hover {
+       border-color: #2196F3;
+   }
+
+.client-card .logo:hover svg {
+       fill: #2196F3;
+   }
 .client-card .logo-svg {
     width: 106px;
-    height: 60px;       
-    outline: 1px solid rgb(182, 182, 229);
+    height: 60px;
+    fill: #afb1b8;    
 }
 /*.item.icon-logo1 {
     background-image: url(../images/client/logo1.svg);
@@ -541,9 +547,23 @@ adress {
     line-height: 1.71;
 }
 /*Social link*/
-.social-title {color: white;}
+.social-title {
+    color: white;
+    font-style: initial;
+    margin-bottom: 20px;
+}
 .social {
     display: flex;
+    height: 44px;
+    width: 210px;
+    justify-content: space-between;
+}
+.social.item {
+    
+}
+.ellipse-svg {
+    height: 44px;
+    width: 44px;
 }
 
 /*Розмітка сторінки*/
@@ -556,4 +576,7 @@ adress {
 }
 .container-footer {
     display: flex;
+    align-items: baseline;
+    width: 507px;
+    justify-content: space-between;
 }
