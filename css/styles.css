@@ -480,20 +480,21 @@ adress {
     
 }
 .client-card .item {
-    width: 170px;
-    height: 92px;
-    align-items: center;
-    justify-content: center;
 
+    width: 170px;
+    height: 92px;   
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     background-color: #ccc;    
-    
+    align-items: center;
+    justify-content: center;
 }
-.logo {
-    
+
+.client-card .logo-svg {
+    display: flex;
     width: 106px;
-    height: 60px;  
+    height: 60px; 
+       
     outline: 1px solid blue;
 }
 /*.item.icon-logo1 {
