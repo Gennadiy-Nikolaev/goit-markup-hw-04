@@ -482,14 +482,19 @@ adress {
 .client-card .item {
     width: 170px;
     height: 92px;
+    align-items: center;
+    justify-content: center;
 
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #ccc;    
+    
 }
-.client-card.item:hover {
-    color: #188CE8;
+.logo {
+    
+    width: 106px;
+    height: 60px;  
+    outline: 1px solid blue;
 }
 /*.item.icon-logo1 {
     background-image: url(../images/client/logo1.svg);
