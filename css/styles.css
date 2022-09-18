@@ -477,25 +477,21 @@ adress {
 .client-card {
     display: flex;
     justify-content: space-between;
-    
-}
+    }
 .client-card .item {
-
+    display: flex;
     width: 170px;
     height: 92px;   
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    background-color: #ccc;    
     align-items: center;
     justify-content: center;
-}
+   }
 
 .client-card .logo-svg {
-    display: flex;
     width: 106px;
-    height: 60px; 
-       
-    outline: 1px solid blue;
+    height: 60px;       
+    outline: 1px solid rgb(182, 182, 229);
 }
 /*.item.icon-logo1 {
     background-image: url(../images/client/logo1.svg);
