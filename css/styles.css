@@ -64,8 +64,8 @@ adress {
     text-decoration: none;
 }
 
-/*Стиль logo*/
-.logo {
+/*Стиль logotype*/
+.logotype {
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -290,7 +290,7 @@ adress {
     margin-right: 30px;    
 }
 .feature .item::before{
-    display: block;
+    display: flex;
     content: "";   
     height: 120px;    
     border-radius: 4px;      
@@ -491,26 +491,26 @@ adress {
 .client-card.item:hover {
     color: #188CE8;
 }
-.item.icon-union1 {
-    background-image: url(../images/client/Union1.svg);
+/*.item.icon-logo1 {
+    background-image: url(../images/client/logo1.svg);
     }
-.item.icon-union2 {
-    background-image: url(../images/client/Union2.svg);
+.item.icon-logo2 {
+    background-image: url(../images/client/logo2.svg);
 }
-.item.icon-object3 {
-    background-image: url(../images/client/Object3.svg);
+.item.icon-logo3 {
+    background-image: url(../images/client/logo3.svg);
 }
-.item.icon-group4 {
-    background-image: url(../images/client/group4.svg);
+.item.icon-logo4 {
+    background-image: url(../images/client/Logo4.svg);
 }
-.item.icon-group5 {
-    background-image: url(../images/client/group5.svg);
+.item.icon-logo5 {
+    background-image: url(../images/client/logo5.svg);
 }
-.item.icon-group6 {
-    background-image: url(../images/client/group6.svg);
-}
-/*<svg><use href="./путь-к-свг-спрайту/имя-спрайта.svg#идентификатор-символа"></use></svg>
-*/
+.item.icon-logo6 {
+    background-image: url(../images/client/logo6.svg);
+}*/
+
+
 /*Footer*/
 .footer {    
     padding-top: 60px;
