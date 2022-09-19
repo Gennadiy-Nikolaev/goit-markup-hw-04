@@ -187,29 +187,23 @@ adress {
 }
 .icon-mail::before
 {   display: flex;      
-    content: "";
-   /* outline: 1px solid red;*/
+    content: "";  
     width: 20px;
     height: 16px;    
     margin-right: 10px;
-    background-image: url(../images/heder/envelope.jpg);
+    background-image: url(../images/heder/envelope.svg);
     background-position: right center;
     background-repeat: no-repeat;    
 }
-/*.icon-mail::before:hover {color: var(--accent-color);}*/
 .icon-tel::before {
     display: flex;
     content: "";    
     width: 20px;
     height: 16px;
     margin-right: 10px;
-    background-image: url(../images/heder/smartphone.svg);
+    background-image: url(../images/heder/envelope.jpg);
     background-position: right center;
     background-repeat: no-repeat;
-}
-.icon-tel:hover::before,
-.icon-tel:focus::before {
-    color: var(--accent-color);
 }
 
 /*Hero*/
@@ -221,7 +215,6 @@ adress {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-    
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/hero/hero.png); 
     background-color: #C4C4C4;
     
@@ -241,8 +234,6 @@ adress {
     text-transform: uppercase;
     letter-spacing: 0.06em;    
 }
-
-
 .general {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -253,7 +244,6 @@ adress {
     padding-top: 94px;
     padding-bottom: 94px; 
 }
-
 .feature {
     display: flex;
     justify-content: center;
@@ -334,18 +324,15 @@ adress {
     margin-bottom: 0;
     background-color: var(--background-color);
 }
-
 .team-card {
     display: flex;
     justify-content: space-between;    
 }
-
 .team-card .item {
     background-color: var(--primary-background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-
 .team-title {
     margin-top: 0;
     margin-bottom: 50px;
@@ -356,7 +343,6 @@ adress {
     line-height: 1.16;
     text-align: center;
 }
-
 .team-card .title {
     margin-top: 30px;
     margin-bottom: 0px;
@@ -367,7 +353,6 @@ adress {
     line-height: 1.18;
     text-align: center;
 }
-
 .team-card .post {
     margin-top: 10px;
     margin-bottom: 16px;
@@ -405,7 +390,6 @@ adress {
     padding: 10px 32px;
     min-width: 216px;
 }
-
 .button.primary {
     color: var(--primary-background-color);
     background-color: var(--accent-color);
@@ -418,7 +402,6 @@ adress {
     min-width: 73px;
     padding: 6px 22px;
 }
-
 .button.secondary {
     color: var(--primary-text-color);
     background-color: var(--primary-button-color);
@@ -431,19 +414,16 @@ adress {
     min-width: 103px;
     padding: 6px 22px;
 }
-
 .button:active {
     background-color: #188CE8;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 .button.primary:hover,
 .button.primary:focus {
     color: var(--primary-text-color);
     background-color: var(--primary-button-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 .button.secondary:hover,
 .button.secondary:focus {
     color: var(--primary-background-color);
@@ -499,7 +479,6 @@ adress {
     line-height: 2;
     letter-spacing: 0.06em;    
 }
-
 .project .post {
     margin-top: 0;
     margin-bottom: 0;
@@ -540,7 +519,6 @@ adress {
 .client-card .logo:hover {
        border-color: #2196F3;
    }
-
 .client-card .logo:hover svg {
        fill: #2196F3;
    }
@@ -549,25 +527,6 @@ adress {
     height: 60px;
     fill: #afb1b8;    
 }
-/*.item.icon-logo1 {
-    background-image: url(../images/client/logo1.svg);
-    }
-.item.icon-logo2 {
-    background-image: url(../images/client/logo2.svg);
-}
-.item.icon-logo3 {
-    background-image: url(../images/client/logo3.svg);
-}
-.item.icon-logo4 {
-    background-image: url(../images/client/Logo4.svg);
-}
-.item.icon-logo5 {
-    background-image: url(../images/client/logo5.svg);
-}
-.item.icon-logo6 {
-    background-image: url(../images/client/logo6.svg);
-}*/
-
 
 /*Footer*/
 .footer {    
@@ -599,7 +558,6 @@ adress {
 /*Social link*/
 .social-title {
     color: var(--primary-background-color);
-    font-style: initial;
     margin-bottom: 20px;
     text-transform: uppercase;
     font-weight: 700;
@@ -623,17 +581,14 @@ adress {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
-
 .ellips-svg {
     height: 20px;
     width: 20px;
     fill: var(--primary-background-color);
 }
-
 .ellips:hover {
     background-color: var(--accent-color);
 }
-
 .ellipse {
     display: flex;
     align-items: center;
@@ -643,17 +598,14 @@ adress {
     background-color: var(--primary-background-color);
     border-radius: 50%;
 }
-
 .ellipse-svg {
     height: 20px;
     width: 20px;
     fill: #AFB1B8;
 }
-
 .ellipse:hover svg {
     fill: var(--primary-background-color);
 }
-
 .ellipse:hover {
     background-color: var(--accent-color);
 }
