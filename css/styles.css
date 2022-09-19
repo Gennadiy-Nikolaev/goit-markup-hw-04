@@ -192,7 +192,7 @@ adress {
     width: 20px;
     height: 16px;    
     margin-right: 10px;
-    background-image: url(../images/heder/envelope.svg);
+    background-image: url(../images/heder/envelope.jpg);
     background-position: right center;
     background-repeat: no-repeat;    
 }
@@ -207,7 +207,10 @@ adress {
     background-position: right center;
     background-repeat: no-repeat;
 }
-
+.icon-tel:hover::before,
+.icon-tel:focus::before {
+    color: var(--accent-color);
+}
 
 /*Hero*/
 .hero {
