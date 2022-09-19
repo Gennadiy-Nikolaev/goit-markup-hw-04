@@ -516,17 +516,19 @@ adress {
     align-items: center;
     justify-content: center;
    }
-.client-card .logo:hover {
-       border-color: #2196F3;
-   }
-.client-card .logo:hover svg {
-       fill: #2196F3;
+.client-card .logo:hover, 
+.client-card .logo:focus {
+    border-color: #2196F3;
    }
 .client-card .logo-svg {
     width: 106px;
     height: 60px;
-    fill: #afb1b8;    
+    fill: #afb1b8;
 }
+.client-card .logo:hover svg,
+.client-card .logo:focus svg {
+    fill: #2196F3;
+   }
 
 /*Footer*/
 .footer {    
@@ -570,8 +572,6 @@ adress {
     width: 206px;
     justify-content: space-between;
 }
-.social.item {   
-}
 .ellips {
     display: flex;
     align-items: center;
@@ -586,7 +586,8 @@ adress {
     width: 20px;
     fill: var(--primary-background-color);
 }
-.ellips:hover {
+.ellips:hover,
+.ellipse:focus {
     background-color: var(--accent-color);
 }
 .ellipse {
@@ -603,12 +604,15 @@ adress {
     width: 20px;
     fill: #AFB1B8;
 }
-.ellipse:hover svg {
-    fill: var(--primary-background-color);
-}
-.ellipse:hover {
+.ellipse:hover,
+.ellipse:focus {
     background-color: var(--accent-color);
 }
+.ellipse:hover svg,
+.ellipse:focus {
+    fill: var(--primary-background-color);
+}
+
 
 /*Розмітка сторінки*/
 .container {
