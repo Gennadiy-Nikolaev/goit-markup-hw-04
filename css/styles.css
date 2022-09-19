@@ -587,9 +587,14 @@ adress {
     fill: var(--primary-background-color);
 }
 .ellips:hover,
-.ellipse:focus {
+.ellips:focus {
     background-color: var(--accent-color);
 }
+.ellips:hover svg,
+.ellips:focus svg {
+    fill: var(--primary-background-color);
+}
+
 .ellipse {
     display: flex;
     align-items: center;
@@ -609,7 +614,7 @@ adress {
     background-color: var(--accent-color);
 }
 .ellipse:hover svg,
-.ellipse:focus {
+.ellipse:focus svg {
     fill: var(--primary-background-color);
 }
 
