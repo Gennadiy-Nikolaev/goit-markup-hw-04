@@ -161,26 +161,52 @@ adress {
 .auth-nav .item+.item {
     margin-left: 50px;
 }
-.auth-nav .link {
+.auth-nav .icon-mail {
+    display: flex;
+    height: 16px;
     color: var(--secondary-text-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.auth-nav .icon-tel {
+    display: flex;
+    height: 16px;
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.icon-mail:hover,
+.icon-mail:focus {
+    color: var(--accent-color);
+}
+.icon-tel:hover,
+.icon-tel:focus {
     color: var(--accent-color);
 }
 .icon-mail::before
-{   display: inline-flex;      
+/*.auth-nav .link::before*/
+{   display: flex;      
     content: "";
-    outline: 1px solid red;
+   /* outline: 1px solid red;*/
     width: 20px;
-    height: 20px;
+    height: 16px;    
     margin-right: 10px;
     background-image: url(../images/heder/envelope.svg);
-    background-position: right bottom;
+    background-position: right center;
     background-repeat: no-repeat;    
+}
+/*.icon-mail::before:hover {color: var(--accent-color);}*/
+.icon-tel::before {
+    display: flex;
+    content: "";    
+    width: 20px;
+    height: 16px;
+    margin-right: 10px;
+    background-image: url(../images/heder/smartphone.svg);
+    background-position: right center;
+    background-repeat: no-repeat;
 }
 
 
@@ -567,9 +593,13 @@ adress {
 }
 /*Social link*/
 .social-title {
-    color: white;
+    color: var(--primary-background-color);
     font-style: initial;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em; 
 }
 .social {
     display: flex;
