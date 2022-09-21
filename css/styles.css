@@ -162,39 +162,6 @@ adress {
     letter-spacing: 0.02em;
     align-items: center;
 }
-
-.mail:hover,
-.mail:focus {
-    color: var(--accent-color);
-}
-
-.mail:hover svg,
-.mail:focus svg {
-    fill: var(--accent-color);
-}
-
-.mail {
-    display: flex;
-}
-
-.mail-svg {
-    fill: var(--secondary-text-color);
-    margin-right: 10px;
-    width: 18px;
-    height: 20px;
-    padding: 0;
-}
-
-.mail:hover svg,
-.mail:focus svg {
-    fill: var(--accent-color);
-}
-
-.mail {
-    display: inline-flex;
-    margin-right: 10px;
-}
-
 .auth-nav .tel {
     display: flex;
     height: 16px;
@@ -204,7 +171,13 @@ adress {
     letter-spacing: 0.02em;
     align-items: center;
 }
-
+.mail-svg {
+    fill: var(--secondary-text-color);
+    margin-right: 10px;
+    width: 18px;
+    height: 20px;
+    padding: 0;
+}
 .tel-svg {
     margin-right: 10px;
     width: 18px;
@@ -212,17 +185,36 @@ adress {
     padding: 0;
     fill: var(--secondary-text-color);
 }
-
+.mail:hover,
+.mail:focus {
+    color: var(--accent-color);
+}
+.mail:hover svg,
+.mail:focus svg {
+    fill: var(--accent-color);
+}
 .tel:hover,
 .tel:focus {
     color: var(--accent-color);
 }
-
 .tel:hover svg,
 .tel:focus svg {
     fill: var(--accent-color);
 }
-
+.mail-svg {
+    fill: var(--secondary-text-color);
+    margin-right: 10px;
+    width: 18px;
+    height: 20px;
+    padding: 0;
+}
+.tel-svg {
+    margin-right: 10px;
+    width: 18px;
+    height: 20px;
+    padding: 0;
+    fill: var(--secondary-text-color);
+}
 /*Hero*/
 .hero {
     height: 600px;
@@ -351,9 +343,7 @@ adress {
 }
 
 /*Our team*/
-.team {
-    margin-top: 0;
-    margin-bottom: 0;
+.team {    
     background-color: var(--background-color);
 }
 
@@ -379,10 +369,7 @@ adress {
     text-align: center;
 }
 
-.team-card .title {
-    margin-top: 30px;
-    margin-bottom: 0px;
-
+.team-card .title { 
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -400,15 +387,15 @@ adress {
     line-height: 1.18;
     text-align: center;
 }
+.teamcard-social {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .team-social {
-    display: flex;
-    height: 44px;
-    width: 206px;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
 }
 
 /*Buttons*/
@@ -511,8 +498,7 @@ adress {
 }
 
 .project .link:hover,
-.project .link:focus {
-    border: 1px solid #eeeeee;
+.project .link:focus {    
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
 }
