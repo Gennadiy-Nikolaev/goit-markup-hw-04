@@ -162,6 +162,7 @@ adress {
     letter-spacing: 0.02em;
     align-items: center;
 }
+
 .auth-nav .tel {
     display: flex;
     height: 16px;
@@ -171,6 +172,7 @@ adress {
     letter-spacing: 0.02em;
     align-items: center;
 }
+
 .mail-svg {
     fill: var(--secondary-text-color);
     margin-right: 10px;
@@ -178,6 +180,7 @@ adress {
     height: 20px;
     padding: 0;
 }
+
 .tel-svg {
     margin-right: 10px;
     width: 18px;
@@ -185,22 +188,27 @@ adress {
     padding: 0;
     fill: var(--secondary-text-color);
 }
+
 .mail:hover,
 .mail:focus {
     color: var(--accent-color);
 }
+
 .mail:hover svg,
 .mail:focus svg {
     fill: var(--accent-color);
 }
+
 .tel:hover,
 .tel:focus {
     color: var(--accent-color);
 }
+
 .tel:hover svg,
 .tel:focus svg {
     fill: var(--accent-color);
 }
+
 .mail-svg {
     fill: var(--secondary-text-color);
     margin-right: 10px;
@@ -208,6 +216,7 @@ adress {
     height: 20px;
     padding: 0;
 }
+
 .tel-svg {
     margin-right: 10px;
     width: 18px;
@@ -215,6 +224,7 @@ adress {
     padding: 0;
     fill: var(--secondary-text-color);
 }
+
 /*Hero*/
 .hero {
     height: 600px;
@@ -240,31 +250,18 @@ adress {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    /*text-align: center;*/
     text-transform: uppercase;
     letter-spacing: 0.06em;
 }
 
-.general {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 /*Specifics*/
-.specifics {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .feature {
     display: flex;
     justify-content: center;
 }
-
 .feature .item {
     margin-right: 30px;
 }
-
 .feature .item::before {
     display: flex;
     content: '';
@@ -275,27 +272,21 @@ adress {
     background-color: var(--primary-button-color);
     margin-bottom: 30px;
 }
-
 .item.icon-antenna::before {
     background-image: url(../images/feature/antenna.svg);
 }
-
 .item.icon-clock::before {
     background-image: url(../images/feature/clock.svg);
 }
-
 .item.icon-diagram::before {
     background-image: url(../images/feature/diagram.svg);
 }
-
 .item.icon-astronaut::before {
     background-image: url(../images/feature/astronaut.svg);
 }
-
 .feature .item:last-child {
     margin-right: 0px;
 }
-
 .feature .title {
     margin-top: 0;
     margin-bottom: 10px;
@@ -318,7 +309,7 @@ adress {
 
 /*What do we do*/
 .main-box {
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
     padding-top: 0;
 }
 
@@ -343,7 +334,7 @@ adress {
 }
 
 /*Our team*/
-.team {    
+.team {
     background-color: var(--background-color);
 }
 
@@ -369,7 +360,7 @@ adress {
     text-align: center;
 }
 
-.team-card .title { 
+.team-card .title {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -387,15 +378,16 @@ adress {
     line-height: 1.18;
     text-align: center;
 }
+
 .teamcard-social {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 .team-social {
-   display: flex;
-   justify-content: center;
-   gap: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 /*Buttons*/
@@ -498,7 +490,7 @@ adress {
 }
 
 .project .link:hover,
-.project .link:focus {    
+.project .link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -532,7 +524,7 @@ adress {
 
 /*Client*/
 .client {
-    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .client-title {
@@ -681,6 +673,7 @@ adress {
 
 /*Розмітка сторінки*/
 .container {
+    padding-top: 94px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
